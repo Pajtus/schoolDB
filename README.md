@@ -1,1 +1,5 @@
-# schoolDB
+# Bazy Danych – Projekt Danych Szkoły.
+
+Podstawowym założeniem projektu była możliwość zapisywania ocen uczniów i śledzenia ich średnich przy założeniu, że częściej będziemy z bazy danych czytać, niż zapisywać. Można wtedy odnotować nieznaczny, w małym ruchu, wzrost responsywności bazy. (Zależało mi by obliczać średnie tylko podczas wpisywania ocen, bo jednak nauczyciele rzadziej je wpisują, niż uczniowie czytają). Drugim założeniem była możliwość śledzenie liczby uczniów jak i nauczycieli umożliwiając swobodne ich przemieszczanie się z bazy, jak i do bazy w postaci nowych rekordów. 
+
+Podczas tworzenia projektu, wykorzystałem stronę „Mackaroo” umożliwiającą szybkie generowanie danych potrzebnych do wypełnienia tabel, dane zdobywałem sam, sposób wypełnienia wejść na stronie również były moją działalnością. Posłużenie się przeze mnie napisanym, bardzo prymitywnym converterem z plików o rozszerzenia .csv na gotowe rekordy do wstawienia w bazie danych. Program ten posłużył mi podczas pisania małych danych testowych. Finalne rekordy wstawiałem do bazy danych za pomocą wbudowanej funkcjonalności importera plików o rozszerzeniu .csv.
